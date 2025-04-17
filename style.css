@@ -24,9 +24,6 @@ h1 {
 .experience {
     color: rgb(69, 7, 128);
 }
-li{
-    border: dotted cadetblue;
-}
 .skill {
     box-sizing: border-box;
     border: solid;
