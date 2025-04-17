@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #5F9EA0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+.Logo {
+    color:#35290c;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #DAA520;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 20px;
+}
+nav a:hover {
+    color:#0730ac79;
+    font-weight: 900;
+    text-decoration:underline;
+}
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image:url(https://gracethemes.com/wp-content/uploads/2023/03/blog-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section {
+   padding: 100px 150px;
+}
+.content h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content h2 span {
+color:#DC143C;
+}
+.content h3 {
+    color:#010202;
+    font-size: 40px;
+    font-weight: bold;
+    border-style:none;
+    background-color: #b9b6b641;
+}
+.fa-facebook {
+    color:#0000FF;
+}
+.fa-square-whatsapp {
+    color: #32CD32;
+}
+.fa-square-instagram {
+    color:	#ee1440;
+}
+.fa-telegram {
+    color:#008B8B;
+}
+.cm {
+    display: inline-block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    transition-duration: 0.5s;
+}
+.cm:hover {
+    background-color: rgba(255, 0, 0, 0.548);
+    transform: scale(1.1);
+}
+.social a {
+    color: white;
+    font-size: 30px;
+    padding-right: 25px;
+}
+
+.MY-SERVICES {
+    text-align: center;
+    background-color: #eee;
+}
+.MY-SERVICES h2 {
+    color:#35290c;
+    font-size: 35px;
+}
+.MY-SERVICES p {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: flex;
+    
+}
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #b9b6b6;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.box:hover {
+    background-color: #fff4f4fd;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px red;
+    transform: scale(1.1);
+   
+}
+
+.box h3 {
+    font-size: 30px;
+}
+.icon {
+    color: red;
+    font-size: 40px;
+}
+.portfolio {
+    text-align: center;
+}
+.portfolio h2 {
+    color:#35290c;
+    font-size: 35px;
+}
+.portfolio p {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.portfolio span {
+    font-weight: bold;
+}
+
+
+
+
+
+.photos {
+    display: flex;
+}
+.photo-1 {
+    margin: 20px;
+    border: solid 5px red;
+    border-radius: 10px;
+}
+.photo-2 {
+    margin: 20px;
+}
+.photo-3 {
+    width: 160%;
+    margin: 20px;
+}
+.photos img {
+    width: 100%;
+}
+.contact-us {
+    background-color: #eee;
+    text-align: center;
+}
+.contact-us h2 {
+    color:#35290c;
+    font-size: 35px;
+}
+.contact-us p {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.contact-area {
+    width: 55%;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #b9b6b6;
+    border-radius: 10px;
+}
+
+.form-input input {
+    width: 60%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #b9b6b6;
+}
+.form-input textarea {
+    width: 60%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #b9b6b6;
+}
+.send {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.send:hover {
+    background-color: rgb(231, 90, 90);
+}
+
+footer {
+    border-top: 5px solid red;
+    background-color: #4b4949;
+    padding-top: 50px;
+    text-align: center;
+}
+footer p {
+    color: white;
+    font-size: 23px;
+}
+footer p span {
+    color: #32CD32;
+}

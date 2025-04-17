@@ -1,0 +1,35 @@
+* {
+    background-color:rgb(226, 194, 152);
+    text-align: center;
+}
+h1 {
+    color: rgb(82, 48, 6);
+}
+.genman {
+    border: 10px ridge rgb(10, 10, 10);
+  background-color: rgb(63, 63, 58);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+#work {
+    box-sizing: content-box;
+    border: 2px solid #333;
+    box-shadow: 1px 1px 1px #444;
+    padding: 100px 10px;
+    margin: 20px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+.experience {
+    color: rgb(69, 7, 128);
+}
+li{
+    border: dotted cadetblue;
+}
+.skill {
+    box-sizing: border-box;
+    border: solid;
+    background: #333;
+
+}
